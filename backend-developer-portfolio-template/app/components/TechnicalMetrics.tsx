@@ -21,11 +21,11 @@ export default function TechnicalMetrics() {
 								viewport={{ once: true }}
 								className="bg-gray-800/50 rounded-lg p-6 border border-gray-700"
 							>
-								<h4 className="text-lg font-semibold text-gray-300">API Gateway</h4>
+								<h4 className="text-lg font-semibold text-gray-300">Django API Backend</h4>
 								<ul className="mt-2 space-y-2 text-gray-400">
-									<li>• P95 latency reduced from 250ms to 80ms</li>
-									<li>• 99.99% availability achieved</li>
-									<li>• Handles 2M requests/day</li>
+									<li>Built simple REST APIs using Django framework</li>
+									<li>Connected Django with MySQL database</li>
+									<li>Handled basic CRUD operations and routing</li>
 								</ul>
 							</motion.div>
 							<motion.div
@@ -34,11 +34,11 @@ export default function TechnicalMetrics() {
 								viewport={{ once: true }}
 								className="bg-gray-800/50 rounded-lg p-6 border border-gray-700"
 							>
-								<h4 className="text-lg font-semibold text-gray-300">Database Optimization</h4>
+								<h4 className="text-lg font-semibold text-gray-300">Java Fundamentals</h4>
 								<ul className="mt-2 space-y-2 text-gray-400">
-									<li>• Query response time improved by 70%</li>
-									<li>• Implemented efficient indexing strategy</li>
-									<li>• Reduced DB load by 45%</li>
+									<li>Learned Java syntax and OOP concepts</li>
+									<li>Built small projects like a student management system</li>
+									<li>Explored basic GUI development with Java Swing</li>
 								</ul>
 							</motion.div>
 						</div>
@@ -46,7 +46,7 @@ export default function TechnicalMetrics() {
 
 					{/* Infrastructure & DevOps */}
 					<div>
-						<h3 className="text-xl font-semibold mb-6 text-green-400">Infrastructure & DevOps</h3>
+						<h3 className="text-xl font-semibold mb-6 text-green-400">Infrastructure & DevOps (Beginner Focused)</h3>
 						<div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 							<motion.div
 								initial={{ opacity: 0, scale: 0.95 }}
@@ -54,11 +54,11 @@ export default function TechnicalMetrics() {
 								viewport={{ once: true }}
 								className="bg-gray-800/50 rounded-lg p-6 border border-gray-700"
 							>
-								<h4 className="text-lg font-semibold text-gray-300">Cloud Infrastructure</h4>
+								<h4 className="text-lg font-semibold text-gray-300">Project Setup & Deployment</h4>
 								<ul className="mt-2 space-y-2 text-gray-400">
-									<li>• Reduced AWS costs by 35%</li>
-									<li>• Implemented auto-scaling for 20+ services</li>
-									<li>• Zero-downtime deployments</li>
+									<li>Deployed simple Django apps using Heroku and Netlify</li>
+									<li>Learned basics of Docker for containerizing applications</li>
+									<li>Managed virtual environments and dependencies with pip and virtualenv</li>
 								</ul>
 							</motion.div>
 							<motion.div
@@ -67,11 +67,11 @@ export default function TechnicalMetrics() {
 								viewport={{ once: true }}
 								className="bg-gray-800/50 rounded-lg p-6 border border-gray-700"
 							>
-								<h4 className="text-lg font-semibold text-gray-300">CI/CD Pipeline</h4>
+								<h4 className="text-lg font-semibold text-gray-300">Version Control & Collaboration</h4>
 								<ul className="mt-2 space-y-2 text-gray-400">
-									<li>• Reduced deployment time by 65%</li>
-									<li>• Automated testing coverage at 90%</li>
-									<li>• Integration tests success rate 99.5%</li>
+									<li>Used Git for source code management and version control</li>
+									<li>Created branches and merged changes through GitHub pull requests</li>
+									<li>Practiced collaborative workflows with team members</li>
 								</ul>
 							</motion.div>
 						</div>
@@ -79,7 +79,7 @@ export default function TechnicalMetrics() {
 
 					{/* Development & Leadership */}
 					<div>
-						<h3 className="text-xl font-semibold mb-6 text-green-400">Development & Leadership</h3>
+						<h3 className="text-xl font-semibold mb-6 text-green-400">Development & Leadership (Beginner Focused)</h3>
 						<div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 							<motion.div
 								initial={{ opacity: 0, scale: 0.95 }}
@@ -87,11 +87,11 @@ export default function TechnicalMetrics() {
 								viewport={{ once: true }}
 								className="bg-gray-800/50 rounded-lg p-6 border border-gray-700"
 							>
-								<h4 className="text-lg font-semibold text-gray-300">Code Quality</h4>
+								<h4 className="text-lg font-semibold text-gray-300">Learning & Collaboration</h4>
 								<ul className="mt-2 space-y-2 text-gray-400">
-									<li>• Led adoption of TypeScript across backend</li>
-									<li>• Established coding standards</li>
-									<li>• Reduced technical debt by 40%</li>
+									<li>Completed multiple small Django projects to solidify backend skills</li>
+									<li>Collaborated with peers on coding exercises and group projects</li>
+									<li>Followed best practices by writing clean and readable code</li>
 								</ul>
 							</motion.div>
 							<motion.div
@@ -100,11 +100,11 @@ export default function TechnicalMetrics() {
 								viewport={{ once: true }}
 								className="bg-gray-800/50 rounded-lg p-6 border border-gray-700"
 							>
-								<h4 className="text-lg font-semibold text-gray-300">Team Impact</h4>
+								<h4 className="text-lg font-semibold text-gray-300">Personal Growth & Contributions</h4>
 								<ul className="mt-2 space-y-2 text-gray-400">
-									<li>• Mentored 4 junior developers</li>
-									<li>• Created 30+ technical documentation guides</li>
-									<li>• Led 3 major system migrations</li>
+									<li>Maintained project documentation to improve understanding and onboarding</li>
+									<li>Participated in online coding communities and code reviews</li>
+									<li>Explored version control workflows using Git and GitHub</li>
 								</ul>
 							</motion.div>
 						</div>
