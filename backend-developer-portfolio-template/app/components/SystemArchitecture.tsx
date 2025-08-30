@@ -6,26 +6,35 @@ export default function SystemArchitecture() {
 	return (
 		<section className="py-20 px-4">
 			<div className="max-w-6xl mx-auto">
-				<motion.h2 initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} className="text-3xl font-bold mb-12 text-center">
+				<motion.h2
+					initial={{ opacity: 0 }}
+					whileInView={{ opacity: 1 }}
+					viewport={{ once: true }}
+					className="text-3xl font-bold mb-12 text-center"
+				>
 					System Architecture & Projects
 				</motion.h2>
 
 				<div className="grid grid-cols-1 gap-8">
 					{[
 						{
-							title: 'Scalable Microservices Architecture',
-							description: 'Designed and implemented a microservices architecture handling 1M+ daily requests with 99.99% uptime',
+							title: 'Ecommerce Website',
+							description:
+								'Developed a comprehensive ecommerce platform with user-friendly shopping features, product management, and secure checkout system.',
 							details: [
-								'Containerized microservices with Docker and Kubernetes',
-								'Implemented service mesh with Istio',
-								'Designed event-driven architecture using Apache Kafka',
-								'Achieved 40% reduction in response times',
+								'Implemented user registration, login, and profile management using Django’s authentication system',
+								'Created an intuitive and responsive frontend with HTML, CSS, and JavaScript',
+								'Built robust backend with Django for managing products, categories, and orders',
+								'Integrated Stripe API for secure and smooth payment processing',
+								'Designed database schemas and managed data with PostgreSQL',
+								'Added search functionality and filtering options to enhance user experience',
 							],
-							tech: ['Kubernetes', 'Docker', 'Istio', 'Kafka', 'MongoDB', 'Redis'],
+							tech: ['Python', 'Django', 'PostgreSQL', 'HTML', 'CSS', 'JavaScript', 'Stripe API'],
 						},
 						{
 							title: 'Task Management System',
-							description: 'Built a web-based task management app to help users organize and prioritize daily tasks.',
+							description:
+								'Built a web-based task management app to help users organize and prioritize daily tasks.',
 							details: [
 								'Developed user authentication and role-based access control',
 								'Implemented task creation, editing, and deadline notifications',
@@ -57,7 +66,10 @@ export default function SystemArchitecture() {
 							</div>
 							<div className="flex flex-wrap gap-2">
 								{project.tech.map((tech, i) => (
-									<span key={i} className="text-sm px-3 py-1 bg-blue-500/10 rounded-full border border-blue-500/20">
+									<span
+										key={i}
+										className="text-sm px-3 py-1 bg-blue-500/10 rounded-full border border-blue-500/20"
+									>
 										{tech}
 									</span>
 								))}
