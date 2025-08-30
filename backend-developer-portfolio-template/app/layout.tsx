@@ -13,10 +13,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-	title: '[Your Name] - Backend Developer',
+	title: 'Madan Basnet - Python Developer',
 	description:
-		'Welcome to my portfolio! I am a passionate backend developer specializing in building scalable server architectures, robust APIs, and high-performance distributed systems. With expertise in cloud infrastructure and database optimization, I create efficient and reliable backend solutions.',
+		'Welcome to my portfolio! I am Madan Basnet, a passionate Python developer specializing in backend development, building scalable server architectures, and efficient APIs.',
 	keywords: [
+		'Python Developer',
 		'Backend Developer',
 		'Software Engineer',
 		'System Architecture',
@@ -25,27 +26,27 @@ export const metadata: Metadata = {
 		'Cloud Computing',
 		'Microservices',
 		'DevOps',
-		'[Your Name]',
-		'Node.js',
+		'Madan Basnet',
 		'Python',
-		'Java',
+		'Django',
+		'Flask',
 		'Distributed Systems',
 		'System Design',
 		'Backend Architecture',
 	],
-	authors: [{ name: '[Your Name]' }],
-	creator: '[Your Name]',
+	authors: [{ name: 'Madan Basnet' }],
+	creator: 'Madan Basnet',
 	openGraph: {
-		title: '[Your Name] - Backend Developer Portfolio',
-		description: 'Passionate backend developer crafting scalable and efficient server architectures. Explore my projects and technical expertise.',
-		url: 'https://your-domain.com',
-		siteName: '[Your Name] - Portfolio',
+		title: 'Madan Basnet - Python Developer Portfolio',
+		description: 'Passionate Python developer crafting scalable and efficient backend architectures. Explore my projects and technical expertise.',
+		url: 'https://your-domain.com', // Replace with your actual domain later
+		siteName: 'Madan Basnet - Portfolio',
 		images: [
 			{
 				url: '/og-image.jpg',
 				width: 1200,
 				height: 630,
-				alt: '[Your Name] - Backend Developer Portfolio',
+				alt: 'Madan Basnet - Python Developer Portfolio',
 			},
 		],
 		locale: 'en_US',
@@ -53,9 +54,9 @@ export const metadata: Metadata = {
 	},
 	twitter: {
 		card: 'summary_large_image',
-		title: '[Your Name] - Backend Developer',
-		description: 'Passionate backend developer crafting scalable and efficient server architectures. Explore my projects and technical expertise.',
-		creator: '@yourusername',
+		title: 'Madan Basnet - Python Developer',
+		description: 'Passionate Python developer crafting scalable and efficient backend architectures. Explore my projects and technical expertise.',
+		creator: '@madanpx',
 		images: ['/og-image.jpg'],
 	},
 	robots: {
