@@ -24,15 +24,17 @@ export default function SystemArchitecture() {
 							tech: ['Kubernetes', 'Docker', 'Istio', 'Kafka', 'MongoDB', 'Redis'],
 						},
 						{
-							title: 'Real-time Data Processing Pipeline',
-							description: 'Built a robust data processing pipeline handling 5TB+ daily data with sub-second latency',
+							title: 'Task Management System',
+							description: 'Built a web-based task management app to help users organize and prioritize daily tasks.',
 							details: [
-								'Implemented stream processing with Apache Flink',
-								'Designed fault-tolerant architecture with automatic failover',
-								'Optimized data throughput by 60%',
-								'Implemented comprehensive monitoring with Prometheus & Grafana',
+								'Developed user authentication and role-based access control',
+								'Implemented task creation, editing, and deadline notifications',
+								'Designed responsive UI with Django templates and Bootstrap',
+								'Integrated REST API for mobile app support',
+								'Optimized database queries to improve load times by 30%',
+								'Wrote unit and integration tests to ensure reliability',
 							],
-							tech: ['Apache Flink', 'AWS Kinesis', 'Prometheus', 'Grafana', 'Python', 'PostgreSQL'],
+							tech: ['Django', 'REST Framework', 'Bootstrap', 'SQLite', 'Docker', 'PostgreSQL'],
 						},
 					].map((project, index) => (
 						<motion.div
